@@ -52,6 +52,28 @@ This is an explanation of why index bound errors exist.
 
 ```
 
+### Adding new elements above the size
+When adding elements to an array that is already maxed in size we need to re-allocate the memory
+then reassign the elements to each position again. This is completed in O(n) time.
 
+This is relatively inefficient.
+
+## Pointer arithmetic
+Accessing an index of an array is O(1).
+
+The O(1) efficiency requires 3 things to be true:
+1. Memory allocated needs to be contiguous (each array index occupies adjacent memory locations)
+1. The array needs to know the memory address of the very first entry in the array, index 0
+1. The array's *data typing* needs to be defined before accessing (defined at assignment)
+
+Explanation:
+Things we know given the above are that **(1)** the data type tells us how much memory we need to allocate
+**(2)** the starting memory address at index 0, **(3)** the numer of memory addresses each
+index will occupy given the size, **(4)** that each index is contiguous in memory.
+
+We then use **pointer arithmetic** to find the memory address:
+`new_address = start_address + i*data_size`
+
+Pointer arithmetic is O(1) because it is just 3 arithmetic operaitons (instead of **n**, the size of the array)
 
 
