@@ -71,13 +71,13 @@ After the constructor of the node is complete, helper methods can be added.
 **Note**: When reassigning pointers we need to be careful, we can easily
 lose track of the rest of the list if our pointer is assigned improperly.
 
-Adding a node to the front:
+**Adding a node to the front:**
 1. Create the node itself
     1. Includes all data required
 1. Set the new node's next reference points to the same node as the new node
 1. Set the head to be the new node
 
-Adding a node to the back:
+**Adding a node to the back:**
 1. Verify that the list itself is not null
     1. If the list is null, just make a `Node`
 1. We have to iterate to the back of the list
@@ -107,12 +107,11 @@ public class SinglyLinkedList {
             current.next = new Node(data);
         }
     }
-
 }
 
 ```
 
-## toString() (method)
+### toString() (method)
 There are two implementations of `toString()` for this to
 return the data from nodes. One is a public method for the node itself
 and the other is a public method for the `SinglyLinkedList` object.
@@ -152,3 +151,89 @@ public class SinglyLinkedList {
 }
 
 ```
+
+### Remove nodes from singlylinked lists
+Removing nodes from a singly linked list has different
+techniques, some take advantage of **garbage collection**
+
+* In Java's garbage collection once we move a pointer and discard it, it will be deallocated and we cannot retrieve that data again
+
+
+```java
+
+public class SinglyLinkedList {
+    // full constructor omitted for brevity
+
+    // by using garbage collection we can just
+    // change the first position to remove
+    public void removeFromFront(int data) {
+        head = head.next;
+    }
+
+    // similar to `addToBack()` we have to modify
+    // the list itself
+    public void removeFromBack(int data) {
+        if (head == null) { return null }
+        else if (head.next == null) { head = null; }
+        else {
+            Node current = head;
+
+            // here we are checking to find the
+            // "second to last" node
+            while (current.next.next != null) {
+                current = current.next;
+            }
+            current.next = null;
+        }
+    }
+}
+
+```
+
+## Optimization of the linkedlist
+
+### Size variable
+When working through removal having a `size` variable will help to reduce overhead.
+
+A size variable should be maintained when:
+* implementing
+* adding to the list
+* removing from the list
+
+The size can make edge case searches in removal a **concrete** variable to check,
+this takes us from O(n) to O(1).
+
+### Tail pointer reference
+By having a tail pointer on the list we can have it reference the last node.
+
+A tail pointer would:
+* add a pointer to point to the last node in the list
+* adding to the back becomes an O(1) operation
+* this **does not** solve the problem of removing from the back
+* This adds edge cases for transitioning between size 0 and size 1
+    * this is due to the head and tail being interrelated in these cases
+    * both head and tail would be pointing to the same node
+
+This essentially has the pointers going backwards!
+
+## Adding generic types
+
+```java
+
+public class SinglyLinkedList<T> {
+    private static class Node<T> {
+        private <T> data;
+        private Node<T> next;
+
+        private Node(T data, Node<T> next) {
+            this.data = data;
+            this.next = next;
+        }
+        private Node(T data) { this(data, null); }
+    }
+}
+
+```
+
+
+
