@@ -39,6 +39,33 @@ public return_type recursiveEx(param1, ..., param_n) {
 }
 ```
 
+## Visualizing recursion
+Visualizing recursion is important when thinking about problems like **factorials**
+and other implementations.
+
+**Visualizing Factorial recursion:**
+![Factorial recursion visualization](./20210610104656-img-1.png)
+
+**Binary search example:**
+```
+procedure BinarySearch(data, target, low, high)
+    if low > high then
+        return False
+    else
+        mid <- (low + high)/2
+        if target = data[mid] then
+            return True
+        else if target < data[mid] then
+            return BinarySearch(data, target, low, mid - 1)
+        else
+            return BinarySearch(data, target, mid + 1, high)
+        end if
+    end if
+end procedure
+```
+
+![Binary search visualization](./20210610105033-img-3.png)
+
 ## Finding the subproblem
 Recursion is good if you can have a problem that breaks into smaller subproblems.
 * Try to figure out the recursive structure of the problem if it is not already defined

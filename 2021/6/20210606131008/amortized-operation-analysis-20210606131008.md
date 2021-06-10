@@ -9,6 +9,8 @@
 When adding to an arraylist we occassionally have resizes that are O(n); however,
 all other additions are O(1) - effectively spreading costs over the life of the list.
 
+![Amortized operation graph, ArrayLists](./20210610104029-img-1.png)
+
 ## Calculating amortized cost
 * Instead of looking at per operation cost we look at **all sequences of n operations and avg. the cost over the #**
 
@@ -27,6 +29,8 @@ Amortized cost = total cost of all operations / # of operations
 = 2
 = O(1)
 ```
+
+![Resize cost of ArrayList operations](./20210610104111-img-2.png)
 
 * Once an arraylist is resized there are "n" new empty cells to occupy before the next operation
     * after "n" operations we can't trigger another resize in that window

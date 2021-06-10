@@ -20,6 +20,8 @@ Properties:
 Arrays do not have to be immediately constructed, they can be initialized with
 values, or initialize empty and then fill in later.
 
+![Definition of Arrays in memory](./20210610103146-img-3.png)
+
 ## Accessing and searching
 
 ### Access
@@ -42,6 +44,8 @@ int[] someArray = {0, 1, 2, 3, 4, 5, 6, 7, 8}
 Memory is statically allocated, meaning that the bounds of the array is
 the set capacity based on the index count determined at creation.
 
+![Static array allocation](./20210610103252-img-4.png)
+
 This is an explanation of why index bound errors exist.
 
 ```
@@ -57,6 +61,8 @@ When adding elements to an array that is already maxed in size we need to re-all
 then reassign the elements to each position again. This is completed in O(n) time.
 
 This is relatively inefficient.
+
+![Resizing a full array in O(n)](./20210610103330-img-5.png)
 
 ## Pointer arithmetic
 Accessing an index of an array is O(1).

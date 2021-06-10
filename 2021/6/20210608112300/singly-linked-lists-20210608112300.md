@@ -11,6 +11,8 @@ resizing and upkeep in the methods.
 
 LinkedLists do not require resizing operations and can expand indefinitley..
 
+![SLL Node Object](./20210610112501-img-2.png)
+
 ## Linkedlist
 These are an alternative to arrays and overcome the some of the
 drawbacks of using arrays.
@@ -111,6 +113,15 @@ public class SinglyLinkedList {
 
 ```
 
+Adding Nodes to a the front of a SinglyLinked list:
+![Adding Nodes to the front of SLL](./20210610114112-img-3.png)
+
+Adding Nodes improperly can cause a circular pointer reference that loses the list:
+![Improper Node add, circular reference](./20210610114218-img-4.png)
+
+Adding Nodes to the back of a SinglyLinked list:
+![Adding Nodes to the back of SSL](./20210610114440-img-5.png)
+
 ### toString() (method)
 There are two implementations of `toString()` for this to
 return the data from nodes. One is a public method for the node itself
@@ -190,6 +201,23 @@ public class SinglyLinkedList {
 
 ```
 
+Removing from the front of a SLL:
+* This takes advantage of garbage collection
+![Remove from front of SSL](./20210610114632-img-6.png)
+
+Removing from the back of a SLL:
+* We have to traverse the list with a `current` variable
+    * then find the `next.next` where the Node is `null`
+    * this then signifies the end of the list, changing the `current` head to `null`
+![Remove from back of SSL](./20210610114929-img-7.png)
+
+Removing from the back of an SLL has edge cases:
+* Removing where the head is `null` just returns `null`
+![The head.next edge case for removeFromBack on SLL](./20210610115122-img-8.png)
+* Removing where the next Node is `null` sets the current head to `null`
+    * This takes advantage of garbage collection
+
+
 ## Optimization of the linkedlist
 
 ### Size variable
@@ -215,6 +243,8 @@ A tail pointer would:
     * both head and tail would be pointing to the same node
 
 This essentially has the pointers going backwards!
+
+![Tail reference optimization for SLL](./20210610115242-img-9.png)
 
 ## Adding generic types
 

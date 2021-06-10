@@ -52,6 +52,8 @@ Ex ArrayList:
 [a][b][c][d][e][][][]
 ```
 
+![ArrayList size and capacity](./20210610103654-img-1.png)
+
 ## Arraylist requirements
 * data must be contiguous
     * there cannot be null spaces between the data
@@ -72,6 +74,8 @@ Ex ArrayList:
 // size = 5
 [a][b][c][d][e][][][]
 ```
+
+![ArrayList improper examples](./20210610103800-img-3.png)
 
 ## Adding to an arraylist
 * we can add to the back in O(1) if resizing is not needed
@@ -96,6 +100,8 @@ Ex ArrayList:
 // size 5 -> size 6
 [a][b][c][d][e] -> [a][b][c][d][e][f][][][][]
 ```
+
+![Adding to ArrayLists](./20210610103835-img-4.png)
 
 ## Adding elsewhere
 * adding at an arbitrary index is not the "back", it is O(n)

@@ -6,6 +6,8 @@
 Module review for the different portions covered in the GT module related to
 ArrayList and List ADT.
 
+![ListADT and ArrayList in DSA block](./20210610104514-img-2.png)
+
 ## Big-o
 The efficiency for ArrayLists is below. This assumes that there is a `size`
 variable. We should be able to figure out time complexities without the `size`
@@ -33,4 +35,6 @@ This assumes a `size` variable.
 | isEmpty |  | O(1) |
 | Clear |  | O(1) |
 
+Below is a screenshot, should the above table be difficult to read.
+![Big-O for ArrayList methods](./20210610104423-img-1.png)
 
