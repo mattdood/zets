@@ -76,4 +76,5 @@ We then use **pointer arithmetic** to find the memory address:
 
 Pointer arithmetic is O(1) because it is just 3 arithmetic operaitons (instead of **n**, the size of the array)
 
+![Pointer arithmetic equation](./20210609203119-img-1.png)
 
