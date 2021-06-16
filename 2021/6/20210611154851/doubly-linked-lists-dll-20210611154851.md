@@ -54,6 +54,8 @@ Add the node and transition the tail pointers
 
 ## Removing from a doublylinked list
 Removal from the back is done in O(1) if the doublylinked list has a tail
+* The **tail** reference is kept track of within the list implementation itself
+* The node has a tail reference, but the parent class ALSO has a tail reference
 
 * We get the second to last node by using the previous pointer of the tail
 * Rely on garbage collection to delete our node once we set the tail reference to null
