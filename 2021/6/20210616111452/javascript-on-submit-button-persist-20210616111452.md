@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/javascript-on-submit-button-persist-20210616111452'
 title: 'JavaScript on Submit Button persist'
 date: '20210616111452'
 category: 'javascript'

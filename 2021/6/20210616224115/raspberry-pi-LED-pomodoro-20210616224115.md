@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/raspberri-pi-led-pomodoro-20210616224115'
 title: 'Raspberry Pi LED Pomodoro'
 date: '20210616224115'
 category: 'project'

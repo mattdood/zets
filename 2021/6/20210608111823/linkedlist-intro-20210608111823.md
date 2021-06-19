@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/listlist-intro-20210608111823'
 title: 'LinkedList Intro'
 date: '20210608111823'
 category: 'dsa'

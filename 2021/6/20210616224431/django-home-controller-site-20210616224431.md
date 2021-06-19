@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/django-home-controller-site-20210616224431'
 title: 'Django Home Controller Site'
 date: '20210616224431'
 category: 'project'

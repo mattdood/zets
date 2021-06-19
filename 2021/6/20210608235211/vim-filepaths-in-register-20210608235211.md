@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/vim-filepaths-in-register-20210608235211'
 title: 'Vim Filepaths in Register'
 date: '20210608235211'
 category: 'vim'

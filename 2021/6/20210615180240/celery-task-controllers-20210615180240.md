@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/celery-task-controllers-20210615180240'
 title: 'Celery Task Controllers'
 date: '20210615180240'
 category: 'celery'

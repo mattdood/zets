@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/custom-django-admin-filters-20210610221136'
 title: 'Custom Django Admin Filters'
 date: '20210610221136'
 category: 'django'

@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/bash-echo-without-newline-20210609200208'
 title: 'Bash Echo without Newline'
 date: '20210609200208'
 category: 'bash'

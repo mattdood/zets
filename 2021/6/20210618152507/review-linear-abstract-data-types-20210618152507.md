@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/review-linear-abstract-data-types-20210618152507'
 title: 'Review Linear Abstract Data Types'
 date: '20210618152507'
 category: 'dsa'

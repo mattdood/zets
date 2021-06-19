@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/queues-adt-lesson-20210618111918'
 title: 'Queues ADT Lesson'
 date: '20210618111918'
 category: 'dsa'

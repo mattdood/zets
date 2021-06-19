@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/arraylists-introduction-20210606124118'
 title: 'ArrayLists Introduction'
 date: '20210606124118'
 category: 'dsa'

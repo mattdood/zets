@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/gatsbyjs-graphql-zet-changes-20210619121751'
 title: 'gatsbyjs graphql zet changes'
 date: '20210619121751'
 category: 'zet'
@@ -25,6 +26,7 @@ Previous:
 Adapted:
 ```
 ---
+path: '/month/day/title-cleaned-date'
 title: 'some title'
 date: 'date'
 category: 'someCategory'

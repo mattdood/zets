@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/amortized-operation-analysis-20210606131008'
 title: 'Amortized Operation Analysis'
 date: '20210606131008'
 category: 'dsa'

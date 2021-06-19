@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/array-introduction-20210604143552'
 title: 'Arrays Introduction'
 date: '20210604143552'
 category: 'dsa'

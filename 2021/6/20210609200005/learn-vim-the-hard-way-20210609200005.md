@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/learn-vim-the-hard-way-20210609200005'
 title: 'Learn Vim the Hard Way'
 date: '20210609200005'
 category: 'vim'

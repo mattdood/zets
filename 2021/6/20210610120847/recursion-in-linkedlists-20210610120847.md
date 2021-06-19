@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/recursion-in-linkedlists-20210610120847'
 title: 'Recursion in LinkedLists'
 date: '20210610120847'
 category: 'dsa'

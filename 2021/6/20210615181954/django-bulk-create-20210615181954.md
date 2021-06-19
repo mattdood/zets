@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/django-bulk-create-20210615181954'
 title: 'Django Bulk Create'
 date: '20210615181954'
 category: 'django'

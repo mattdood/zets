@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/linked-structures-20210613171909'
 title: 'Linked Structures'
 date: '20210613171909'
 category: 'dsa'

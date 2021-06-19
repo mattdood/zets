@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/execute-simple-scripts-from-vim-20210608234758'
 title: 'Execute Simple Scripts from Vim'
 date: '20210608234758'
 category: 'vim'

@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/arraylist-linkedlist-review-20210616171621'
 title: 'ArrayList LinkedList Review'
 date: '20210616171621'
 category: 'dsa'

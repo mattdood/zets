@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/doublylinked-lists-dll-20210611154851'
 title: 'DoublyLinked Lists DLL'
 date: '20210611154851'
 category: 'dsa'

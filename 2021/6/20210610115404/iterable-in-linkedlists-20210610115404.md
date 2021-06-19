@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/iterable-in-linkedlists-20210610115404'
 title: 'Iterable in LinkedLists'
 date: '20210610115404'
 category: 'dsa'

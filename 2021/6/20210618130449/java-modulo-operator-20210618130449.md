@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/java-modulo-operator-20210618130449'
 title: 'Java Modulo Operator'
 date: '20210618130449'
 category: 'java'

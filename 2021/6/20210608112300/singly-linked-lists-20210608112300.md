@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/singlylinked-lists-20210608112300'
 title: 'SinglyLinked Lists'
 date: '20210608112300'
 category: 'dsa'

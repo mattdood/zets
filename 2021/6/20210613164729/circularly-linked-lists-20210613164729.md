@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/circularlylinked-lists-20210613164729'
 title: 'CircularlyLinked Lists'
 date: '20210613164729'
 category: 'dsa'

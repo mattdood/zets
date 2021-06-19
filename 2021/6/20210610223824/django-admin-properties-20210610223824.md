@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/django-admin-properties-20210610223824'
 title: 'Django Admin Properties'
 date: '20210610223824'
 category: 'django'

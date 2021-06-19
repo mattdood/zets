@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/list-arraylist-adt-20210608110345'
 title: 'List ArrayList ADT'
 date: '20210608110345'
 category: 'dsa'

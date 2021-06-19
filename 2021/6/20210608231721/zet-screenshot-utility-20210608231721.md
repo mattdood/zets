@@ -1,4 +1,5 @@
 ---
+path: '/2021/06/zet-screenshot-utility-20210608231721'
 title: 'Zet Screenshot Utility'
 date: '20210608231721'
 category: 'utility'
