@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| queues-adt-lesson | dsa  | queues, adt  | 20210618111918 |
+---
+title: 'Queues ADT Lesson'
+date: '20210618111918'
+category: 'dsa'
+tags: ['queues', 'adt']
+---
 
 # queues adt lesson
 Queues model linear data. Stacks are `LIFO` while quques are `FIFO`.

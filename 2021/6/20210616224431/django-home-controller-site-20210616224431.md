@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| django-home-controller-site | project  | django, project, home automation  | 20210616224431 |
+---
+title: 'Django Home Controller Site'
+date: '20210616224431'
+category: 'project'
+tags: ['home automation', 'project']
+---
 
 # django home controller site
 When thinking about my Raspberry Pi LED controller idea I realized that a simple

@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| recursion-in-linkedlists | dsa  | linkedlist, singlylinked list, recursion  | 20210610120847 |
+---
+title: 'Recursion in LinkedLists'
+date: '20210610120847'
+category: 'dsa'
+tags: ['linkedlist', 'singlylinked list', 'recursion']
+---
 
 # recursion in linkedlists
 Moving recursively through a `SinglyLinked` list to solve a sample problem.

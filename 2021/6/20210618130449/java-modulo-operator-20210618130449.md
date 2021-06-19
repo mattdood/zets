@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| java-modulo-operator | java  | modulo, java  | 20210618130449 |
+---
+title: 'Java Modulo Operator'
+date: '20210618130449'
+category: 'java'
+tags: ['modulo', 'java']
+---
 
 # java modulo operator
 The `%` in Java is modulo. The integers are partitioned by a modulo operation

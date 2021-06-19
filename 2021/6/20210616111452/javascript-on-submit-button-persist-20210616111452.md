@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| javascript-on-submit-button-persist | javascript  | javascript, forms, css  | 20210616111452 |
+---
+title: 'JavaScript on Submit Button persist'
+date: '20210616111452'
+category: 'javascript'
+tags: ['forms', 'css', 'javascript']
+---
 
 # javascript on submit button persist
 When working through a forms change I found it difficult to persist a slider's

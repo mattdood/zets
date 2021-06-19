@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| bash-echo-without-newline | bash  | bash, scripting  | 20210609200208 |
+---
+title: 'Bash Echo without Newline'
+date: '20210609200208'
+category: 'bash'
+tags: ['bash', 'scripting']
+---
 
 # bash echo without newline
 Today I ran into an issue with Bash scripting where I had a carriage return

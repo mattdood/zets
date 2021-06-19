@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| vim-filepaths-in-register | vim  | scripts, vim  | 20210608235211 |
+---
+title: 'Vim Filepaths in Register'
+date: '20210608235211'
+category: 'vim'
+tags: ['scripts', 'vim']
+---
 
 # vim filepaths in register
 We can get the full paths, relative paths, and filenames within

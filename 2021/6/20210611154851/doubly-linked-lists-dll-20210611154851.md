@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| doubly-linked-lists-dll | dsa  | doublylinked list  | 20210611154851 |
+---
+title: 'DoublyLinked Lists DLL'
+date: '20210611154851'
+category: 'dsa'
+tags: ['doublylinked list']
+---
 
 # doubly linked lists dll
 Singlylinked lists that can traverse backwards.

@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| learn-vim-the-hard-way | vim  | vimscript, vim  | 20210609200005 |
+---
+title: 'Learn Vim the Hard Way'
+date: '20210609200005'
+category: 'vim'
+tags: ['vimscript', 'vim']
+---
 
 # learn vim the hard way
 When creating my screenshotting utility for Vim I noticed a good resource for

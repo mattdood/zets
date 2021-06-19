@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| list-arraylist-adt | dsa  | arraylist, list, big-o  | 20210608110345 |
+---
+title: 'List ArrayList ADT'
+date: '20210608110345'
+category: 'dsa'
+tags: ['arraylist', 'list', 'big-o']
+---
 
 # list arraylist adt
 Module review for the different portions covered in the GT module related to

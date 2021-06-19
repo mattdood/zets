@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| arraylists-and-recursion-intro | dsa  | arraylists, recursion  | 20210604143209 |
+---
+title: 'ArrayLists and Recursion Intro'
+date: '20210604143209'
+category: 'dsa'
+tags: ['arraylists', 'recursion']
+---
 
 # arraylists and recursion intro
 Module 1 of the course.

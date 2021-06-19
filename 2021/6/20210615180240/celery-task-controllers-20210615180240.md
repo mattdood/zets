@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| celery-task-controllers | celery  | django, celery, scraping  | 20210615180240 |
+---
+title: 'Celery Task Controllers'
+date: '20210615180240'
+category: 'celery'
+tags: ['celery', 'django', 'scraping']
+---
 
 # celery task controllers
 During a revamp of a previous project I found myself needing to chain together

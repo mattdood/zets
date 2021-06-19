@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| web-scraping-service | project  | idea, project, scraping  | 20210616141508 |
+---
+title: 'Web Scraping Service'
+date: '20210616141508'
+category: 'project'
+tags: ['idea', 'project', 'scraping']
+---
 
 # web scraping service
 Jordan and I had a project idea for automated web scraping that would be a competitor

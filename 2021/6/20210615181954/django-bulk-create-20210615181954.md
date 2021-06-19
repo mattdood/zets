@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| django-bulk-create | django  | django, postgres  | 20210615181954 |
+---
+title: 'Django Bulk Create'
+date: '20210615181954'
+category: 'django'
+tags: ['postgres', 'django']
+---
 
 # django bulk create
 Bulk create operations are a faster, minimally logged operation that

@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| singly-linked-lists | dsa  | linkedlist, singly linked  | 20210608112300 |
+---
+title: 'SinglyLinked Lists'
+date: '20210608112300'
+category: 'dsa'
+tags: ['linkedlist', 'singly linked']
+---
 
 # singly linked lists
 Singly-linked lists (SLL) are the basic building blocks of the LinkedList

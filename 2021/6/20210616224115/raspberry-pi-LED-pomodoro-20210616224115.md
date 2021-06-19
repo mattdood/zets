@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| raspberry-pi-LED-pomodoro | project  | raspberry pi, project, pomodoro  | 20210616224115 |
+---
+title: 'Raspberry Pi LED Pomodoro'
+date: '20210616224115'
+category: 'project'
+tags: ['raspberry pi', 'pomodoro', 'project']
+---
 
 # raspberry pi LED pomodoro
 I had an idea to make a Raspberry Pi project that would control lights in my office

@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| zet-screenshot-utility | utility  | bash, vim  | 20210608231721 |
+---
+title: 'Zet Screenshot Utility'
+date: '20210608231721'
+category: 'utility'
+tags: ['vim', 'bash']
+---
 
 # zet screenshot utility
 A big portion of the Zet-CLI that is missing is the ability to quickly create

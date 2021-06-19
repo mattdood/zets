@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| arraylists-introduction | dsa  | arraylist, abstract data types  | 20210606124118 |
+---
+title: 'ArrayLists Introduction'
+date: '20210606124118'
+category: 'dsa'
+tags: ['arraylists', 'abstract data types']
+---
 
 # arraylists introduction
 ArrayList is a dynamic, ADT data structure.

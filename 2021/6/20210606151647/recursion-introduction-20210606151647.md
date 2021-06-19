@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| recursion-introduction | dsa  | recursion, math  | 20210606151647 |
+---
+title: 'Recursion Introduction'
+date: '20210606151647'
+category: 'dsa'
+tags: ['math', 'recursion']
+---
 
 # recursion introduction
 Recursion is often used in CS to traverse things in data structures.

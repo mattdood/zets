@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| iterable-in-linkedlists | dsa  | linkedlist, singlylinked list  | 20210610115404 |
+---
+title: 'Iterable in LinkedLists'
+date: '20210610115404'
+category: 'dsa'
+tags: ['linkedlist', 'singlylinked list']
+---
 
 # iterable in linkedlists
 Using `Iterable` gives a user the ability to iterate over the SinglyLinkedList

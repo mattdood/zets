@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| arrays-introduction | dsa  | arrays, arraylists  | 20210604143552 |
+---
+title: 'Arrays Introduction'
+date: '20210604143552'
+category: 'dsa'
+tags: ['arraylists', 'arrays']
+---
 
 # arrays introduction
 Arrays are statically allocated, contiguous blocks of memory that provide O(1)

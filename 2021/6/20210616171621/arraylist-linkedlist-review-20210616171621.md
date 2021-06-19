@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| arraylist-linkedlist-review | dsa  | review, linkedlist, arraylist  | 20210616171621 |
+---
+title: 'ArrayList LinkedList Review'
+date: '20210616171621'
+category: 'dsa'
+tags: ['review', 'linkedlist', 'arraylist']
+---
 
 # arraylist linkedlist review
 There are two implementations of the List ADT so far, `ArrayList` and `LinkedList`.

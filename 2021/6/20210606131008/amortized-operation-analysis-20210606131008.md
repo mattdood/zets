@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| amortized-operation-analysis | dsa  | big-o, big-o analysis  | 20210606131008 |
+---
+title: 'Amortized Operation Analysis'
+date: '20210606131008'
+category: 'dsa'
+tags: ['big-o', 'big-o analysis']
+---
 
 # amortized operation analysis
 "spreading cost over time" is the key takeaway for amortized operations.

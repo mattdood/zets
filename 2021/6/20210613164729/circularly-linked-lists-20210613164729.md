@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| circularly-linked-lists | dsa  | linkedlist, circularlylinked  | 20210613164729 |
+---
+title: 'CircularlyLinked Lists'
+date: '20210613164729'
+category: 'dsa'
+tags: ['circularlylinked', 'linkedlist']
+---
 
 # circularly linked lists
 These are linkedlists where the **head** and **tail** nodes connect to each other

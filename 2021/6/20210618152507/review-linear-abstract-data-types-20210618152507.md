@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| review-linear-abstract-data-types | dsa  | adt, linear adt, review  | 20210618152507 |
+---
+title: 'Review Linear Abstract Data Types'
+date: '20210618152507'
+category: 'dsa'
+tags: ['adt', 'linear adt', 'review']
+---
 
 # review linear abstract data types
 The current list of data structures covered with implementations. The only

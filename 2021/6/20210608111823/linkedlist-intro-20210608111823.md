@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| linkedlist-intro | dsa  | linkedlist  | 20210608111823 |
+---
+title: 'LinkedList Intro'
+date: '20210608111823'
+category: 'dsa'
+tags: ['linkedlist']
+---
 
 # linkedlist intro
 Arrays in general are versatile structural tools (uses the List ADT).

@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| custom-django-admin-filters | django  | django admin  | 20210610221136 |
+---
+title: 'Custom Django Admin Filters'
+date: '20210610221136'
+category: 'django'
+tags: ['django admin']
+---
 
 # custom django admin filters
 Today I had the need to provide a custom filter to users of the Django admin page.

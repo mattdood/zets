@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| django-admin-properties | django  | django admin, models, python  | 20210610223824 |
+---
+title: 'Django Admin Properties'
+date: '20210610223824'
+category: 'django'
+tags: ['django admin', 'models', 'python']
+---
 
 # django admin properties
 When working in the Django admin today I created a custom property that displays

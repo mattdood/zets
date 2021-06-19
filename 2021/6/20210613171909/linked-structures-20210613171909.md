@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| linked-structures | dsa  | linkedlist  | 20210613171909 |
+---
+title: 'Linked Structures'
+date: '20210613171909'
+category: 'dsa'
+tags: ['linkedlist']
+---
 
 # linked structures
 Circularly linked lists are a small change to general linkedlists. These can be
