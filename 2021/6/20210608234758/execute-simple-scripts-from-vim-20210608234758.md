@@ -1,6 +1,9 @@
-|  Title | Category  | Tags  | Date |
-| ------------ | ------------ | ------------ | ----|
-| execute-simple-scripts-from-vim | vim  | vim, scripts, terminal  | 20210608234758 |
+---
+title: 'Execute Simple Scripts from Vim'
+date: '20210608234758'
+category: 'vim'
+tags: ['vim', 'scripts', 'terminal']
+---
 
 # execute simple scripts from vim
 I've been running into a few scenarios where I want to be able to execute the
