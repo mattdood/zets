@@ -1,3 +1,11 @@
+---
+path: '/2021/06/readme-20210602164713'
+title: 'Readme'
+date: '20210602164713'
+category: 'blog'
+tags: ['description', 'blog']
+---
+
 # Zets
 This is a notes repository that acts as a general collection. The subjects of
 each note are broken into a "card" like structure loosely based on the
