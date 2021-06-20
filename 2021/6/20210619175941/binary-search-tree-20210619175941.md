@@ -1,5 +1,5 @@
 ---
-path: '/2021/6/binary-search-tree/20210619175941'
+path: '/2021/6/binary-search-tree-20210619175941'
 title: 'binary search tree'
 date: '20210619175941'
 category: 'dsa'
