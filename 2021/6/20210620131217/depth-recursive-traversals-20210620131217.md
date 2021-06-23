@@ -29,7 +29,7 @@ preorder(Node node);
     if node is not null:
         look at the data in the node
         recurse left child node
-        recurse righ child node
+        recurse right child node
 ```
 * Looking at the data can mean printing, recording, or performing a task
 
