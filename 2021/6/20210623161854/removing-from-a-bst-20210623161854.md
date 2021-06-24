@@ -25,6 +25,7 @@ Binary search tree removal recursion cases:
 
 ## Removal of a node
 Removal cases are handled in different ways, depending on the children that is has.
+* If a node does not have a left or right child (predecessor/successor) you may need to check the ancestors of the node
 
 ### Zero children case
 If the node has zero children (0) then we can set the `right` or `left` child node
@@ -115,14 +116,26 @@ Example pseudocode for data found case:
 dummy.data <- curr.data
 decrement size
 if 0 children:
-    return null
+    return null // with pointer reinforcement this is equivalent to parent's pointer being null
 else if left child is non-null:
-    return left child
+    return left child // pointer reinforcement => setting parent's pointer to grandchild
 else if right child is non-null:
-    return right child
+    return right child // pointer reinforcement => setting parent's pointer to grandchild
 else:
     Node dummy2 <- new Node(-1)
     curr.right <- removeSuccessor(curr.right, dummy2)
     curr.data <- dummy2.data
+```
+
+Example successor helper method:
+```
+// a method to return the successor of a removed
+// node by iterating to the next largest child node
+private Node removeSuccessor(Node curr, Node dummy):
+    if curr.left == null:
+        dummy.data <- curr.data
+        return curr.right
+    else:
+        curr.left <- removeSuccessor(curr.left, dummy)
 ```
 
