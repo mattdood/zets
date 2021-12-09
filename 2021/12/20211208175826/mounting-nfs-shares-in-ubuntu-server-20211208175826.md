@@ -47,6 +47,19 @@ mkdir -p /mnt/your-mount-here
 sudo mount -t nfs4 192.168.1.234:/export/MediaShare /mnt/your-mount-here
 ```
 
+1. Now make the mount persist on reboots, if you don't want the mount to persist then skip this step.
+
+```
+sudo umount /mnt/your-mount-here/
+```
+
+1. Edit the `fstab` to include our mount, use elevated permissions to allow writes to it
+
+```
+# ... some other stuff
+191.168.1.234:/export/MediaShare         /mnt/your-mount-here nfs     defaults        0       0
+```
+
 1. Set the permissions that you need, I did a `chown` for my user and set the files to `755`
 
 ```
