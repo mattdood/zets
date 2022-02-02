@@ -139,6 +139,7 @@ and WSL at the same time.
 1. Open your WSL instance
 1. Open the XLaunch application
     1. Select 1 large monitor (I don't use fullscreen)
+    1. Change the display # from `-1` to `0` (this is the display we set in our `.bashrc`)
     1. Click next until you see "Disable access control", check this box
         1. This will allow our WSL service to connect
     1. Optionally, you can save your config and it will act as a shortcut
