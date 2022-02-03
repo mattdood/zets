@@ -12,6 +12,7 @@ and assigning permissions to explore the access control list policies that users
 have.
 
 This is the finalized account and user permissions for the lab:
+
 ![Finalized account permissions and groups](./20220203123258-img-1.png)
 
 ## Region vs. Global - IAM
@@ -35,6 +36,7 @@ arn:aws:iam::315477546951:user/user-1
 ```
 
 IAM user ARN, path, and creation time example:
+
 ![IAM user ARN, path, and creation time example](./20220203124547-img-2.png)
 
 ## Access policies
@@ -55,6 +57,7 @@ These can be viewed in JSON format to give us a look at the specific actions/per
 and associated resources that the group can affect.
 
 Example policy document in JSON:
+
 ![Example policy document in JSON](./20220203130552-img-3.png)
 
 ### Editing permissions and explicit denials

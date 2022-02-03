@@ -147,5 +147,6 @@ and WSL at the same time.
     1. `startlxde` - this should now display to our window
 
 **Finished product:**
+
 ![A screenshot of our new desktop GUI](./20220201163231-img-1.png)
 

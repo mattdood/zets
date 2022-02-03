@@ -19,6 +19,7 @@ AWS' policy simulator allows users to troubleshoot IAM related issues.
 [Link to the policy simulator](https://policysim.aws.amazon.com)
 
 Example screen of the IAM policy simulator:
+
 ![Example screen of the IAM policy simulator](./20220203151017-img-1.png)
 
 **Using the policy simulator:**
