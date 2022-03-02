@@ -29,7 +29,7 @@ Our architecture will require either:
 
 We'll be discussing same VPC instances. Our architecture looks like the following:
 
-![RedShift and Postgres sharing a VPC](./20220302152044-img-1.png)
+![RedShift and Postgres sharing a VPC](./20220302154233-img-2.png)
 
 ## Implementation of the federated query
 The implementation of this service is broken out below.
