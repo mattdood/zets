@@ -3,7 +3,7 @@ path: '/2022/3/federated-queries-from-postgres-to-redshift-without-enhanced-vpc-
 title: 'federated queries from postgres to redshift without enhanced vpc routing'
 date: '20220302105128'
 category: 'redshift'
-tags: ['postgres', 'queries', 'aws', 'redshift spectrum']
+tags: ['postgres', 'queries', 'aws', 'redshift']
 ---
 
 # federated queries from postgres to redshift without enhanced vpc routing
