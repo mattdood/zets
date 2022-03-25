@@ -21,6 +21,8 @@ for directories.
 Doing this individually with a `chwon <user name:group name> <file/name.txt>`
 or `chmod 664 <file/name.txt>` is annoying.
 
+[Link to a good resource on file permissions](https://linuxhandbook.com/linux-file-permissions/)
+
 ## Recursively changing file/directory permissions
 To do this action recursively, we can execute the below:
 
