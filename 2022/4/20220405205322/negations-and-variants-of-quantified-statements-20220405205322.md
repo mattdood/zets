@@ -140,7 +140,7 @@ Given -
 
 Contrapositive:
 * `∀ x ∈ R , if ~q(x) then ~p(x)`
-* "if a square of a rela number is less than or equal to 9, then the number is
+* "if a square of a real number is less than or equal to 9, then the number is
 less than or equal to 3"
 
 Converse:
@@ -202,7 +202,7 @@ Example:
 Given a statement -
 "A number is prime only if it is greater than 1"
 
-* `p(x)` = "x is prime"
+* `s(x)` = "x is prime"
 * `r(x)` = "x is greater than 1"
 * `D` = set of all numbers
 
