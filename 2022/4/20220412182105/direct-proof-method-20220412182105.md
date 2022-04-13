@@ -100,7 +100,7 @@ Prove the statement - "The difference of two rational numbers is rational"
 Restated - "For all real numbers `r` and `s`, if `r` and `s` are rational, then `r - s` is rational"
 
 Proof with the direct method:
-* Suppose that `r` and `s` are rational numbers. [We must show that `r-s` is rationa]
+* Suppose that `r` and `s` are rational numbers. [We must show that `r-s` is rational]
 * Let `r = a/b` and `s = c/d`, where `a,b,c,d` are some integers, and `b<>0, d<>0` (by definition of rational numbers)
 * By substitution we get:
 ```
