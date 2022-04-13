@@ -20,7 +20,7 @@ are for different types of sequence progression (arithmetic, geometric, exponent
 ## Geometric progression
 ```latex
 
-\sum_{k=0}^d r{k} = (r{n+1} - 1)/(r - 1)
+\sum_{k=0}^n r{k} = (r{n+1} - 1)/(r - 1)
 
 ```
 

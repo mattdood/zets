@@ -107,7 +107,7 @@ We can utilize the below generic formula for determining the sum of a geometric 
 
 ```latex
 
-\sum_{k=0}^d r{k} = (r{n+1} - 1)/(r - 1)
+\sum_{k=0}^n r{k} = (r{n+1} - 1)/(r - 1)
 
 ```
 
