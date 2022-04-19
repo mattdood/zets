@@ -13,7 +13,7 @@ conclusion occurred first then the hypothesis could result.
 
 This can be said for the opposite of a hypothesis and conclusion happening.
 
-If a combination of both the conerse and inverse happens, it is contrapositive.
+If a combination of both the converse and inverse happens, it is contrapositive.
 
 * Converse - The concept of a hypothesis/conclusion causing one another's result in
 a given direction
