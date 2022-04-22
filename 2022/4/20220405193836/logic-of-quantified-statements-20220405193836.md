@@ -71,7 +71,7 @@ Using all real numbers:
     * Not all values are true, if `x = 1/2` then it yields `1/4 < 1`
 
 ### Existential quantifier
-The symbol `∃` is the existential quantifier and denotes "there exists", "for soem",
+The symbol `∃` is the existential quantifier and denotes "there exists", "for some",
 "there is a", or "for at least one".
 
 Example:

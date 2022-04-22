@@ -77,7 +77,7 @@ the hypothesis and conclusion**.
 Symbollically:
 `p -> q` is `q -> p`
 
-**Note:** A conditional statment and its converse are ***not*** ligically equivalent.
+**Note:** A conditional statment and its converse are ***not*** logically equivalent.
 
 Example:
 The converse of the following.
