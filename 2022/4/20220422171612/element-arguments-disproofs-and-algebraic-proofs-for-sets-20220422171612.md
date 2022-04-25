@@ -74,7 +74,7 @@ The identities are very similar to logical identities.
 * Idempotent laws: `A ∪ A = A` and `A ∩ A = A`
 * Universal bound laws: `A ∪ U = U` and `A ∩ ∅  = ∅ `
 * De Morgan's Laws: `(A ∪ B)^c = A^c ∩ B^c` and `(A ∩ B)^c = A^c ∪ B^c`
-* Absorption laws: `A ∪ (A ∩ B) = A` and `A ∩ B (A ∪ B) = A`
+* Absorption laws: `A ∪ (A ∩ B) = A` and `A ∩ (A ∪ B) = A`
 * Complements of U and ∅ : `U^c = ∅ ` and `∅ ^c = U`
 * Set difference law: `A - B = A ∩ B^c`
 
