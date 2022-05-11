@@ -40,4 +40,9 @@ Actually remove them, rather than dry-run:
 git clean -d -f <anything else here>
 ```
 
+Another option for untracked files:
+```bash
+git add .
+git reset --hard HEAD
+```
 
