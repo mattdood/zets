@@ -69,6 +69,21 @@ will not occur.
         * The unique combination required for a primary key means that we could
         have the same partition key used but by having different sort keys we have uniqueness
 
+## Restricting user access with IAM
+User access can be restricted with a condition to an IAM policy to allow access
+to items only if the partition key value matches some unique ID.
+
+Example configuration for user access control:
+```JSON
+"Condition": {
+    "ForAllValues:StringEquals": {
+        "dynamodb:LeadingKeys": [
+            "${www.mygame.com:user_id}" -> parition key must match user_id to restrict access
+        ]
+    }
+}
+```
+
 ## Exam tips
 * DynamoDB is a low latency NoSQL database
 * Data models are either key-value or document formats (JSON, HTML, XML)
