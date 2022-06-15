@@ -1,12 +1,12 @@
 ---
-path: '/2022/6/pydoc-is-great-and-i-should've-used-it-sooner-20220608215233'
-title: 'pydoc is great and I should've used it sooner'
+path: '/2022/6/pydoc-is-great-and-i-shouldve-used-it-sooner-20220608215233'
+title: 'pydoc is great and I shouldve used it sooner'
 date: '20220608215233'
 category: 'python'
 tags: ['docs']
 ---
 
-# pydoc is great and I should've used it sooner
+# pydoc is great and I shouldve used it sooner
 I was recently watching an AnythonyWritesCode video (great content) and noticed
 the command line assistance for Python documentation. I'm a bit embarassed to say
 how long I've been accessing documentation via Google to look up builtin classes
