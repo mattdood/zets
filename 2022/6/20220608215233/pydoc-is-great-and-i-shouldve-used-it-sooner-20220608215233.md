@@ -1,5 +1,5 @@
 ---
-path: '/2022/6/pydoc-is-great-and-i-should've-used-it-sooner-20220608215233'
+path: '/2022/6/pydoc-is-great-and-i-shouldve-used-it-sooner-20220608215233'
 title: 'pydoc is great and I should've used it sooner'
 date: '20220608215233'
 category: 'python'
