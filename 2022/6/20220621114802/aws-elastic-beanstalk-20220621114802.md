@@ -34,4 +34,5 @@ entirely on the development of the code.
 * Provisions all the AWS resources for you, like EC2, RDS, S3, ELBs, autoscaling groups
 * Handles most of the ysstems administration for the OS and server updates, monitoring,
 metrics, and health checks
+* Gives full administrative control over provisioned resources
 
