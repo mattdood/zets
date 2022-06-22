@@ -3,7 +3,7 @@ path: '/2022/6/aws-codeartifact-intro-20220622120359'
 title: 'aws codeartifact intro'
 date: '20220622120359'
 category: 'aws'
-tags: ['developer associate', 'certifgication', 'codeartifact']
+tags: ['developer associate', 'certification', 'codeartifact']
 ---
 
 # aws codeartifact intro
