@@ -52,3 +52,12 @@ WHERE
     installed_version IS NOT NULL;
 ```
 
+## Installing the libraries
+Some libraries require a command to run after they're enabled. In the case of `pg_stat_statements`
+this is true.
+
+An example for the `pg_stat_statements` would be:
+```sql
+CREATE EXTENSION pg_stat_statements;
+```
+
