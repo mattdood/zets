@@ -21,6 +21,7 @@ TF modules
 * [Developing TF modules at scale](https://www.slideshare.net/TomStraub5/developing-terraform-modules-at-scale-hashitalks-2021) - A
 pattern for developing TF modules
 * [TFTest](https://github.com/GoogleCloudPlatform/terraform-python-testing-helper/) - Testing framework in Python
+* [Terraform built in testing](https://www.terraform.io/language/modules/testing-experiment) - Terraform has beta support for testing, it may not fulfill many needs
 
 
 ## Testing TF modules
