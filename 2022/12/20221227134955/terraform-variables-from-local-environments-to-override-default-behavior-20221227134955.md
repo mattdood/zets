@@ -39,3 +39,40 @@ export TF_VAR_my_test_variable="something"
 TF_VAR_my_test_variable="something" terraform plan
 ```
 
+## Complex examples with overrides
+If we have a variable that has no default value we can check for its existence
+then provide a default value.
+
+This checks for the `TF_VAR_my_test_variable` or the existence of a `var.my_test_variable`
+value passed in.
+
+```hcl
+# main.tf
+variable "my_test_variable" {
+  type        = string
+  description = "My test variable"
+}
+
+locals {
+  my_var_or_default = (
+    try(var.my_test_variable, false)
+    ? var.my_test_variable
+    : "default value"
+  )
+}
+```
+
+With a more complex variable we could check for the existence of other defaults, then
+coalesce them together:
+
+```hcl
+# main.tf
+locals {
+  my_var_or_default = (
+    try(var.my_test_variable, false) || var.my_other_test_variable != null
+    ? coalesce(var.my_test_variable, var.my_other_test_variable)
+    : "default value"
+  )
+}
+```
+
