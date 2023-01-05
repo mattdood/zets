@@ -7,6 +7,11 @@ tags: ['github', 'bash']
 ---
 
 # github actions conditional environment variables
+**Update 1/4/2023:** The original psot contained an error that did not have
+proper variable scope in mind when working with the builtin GitHub actions
+variables. The code has since been fixed, though the solution that I recommend
+to avoid the verbosity of this setup is still recommended.
+
 Working with GitHub actions is often nicer than GitLab's CI pipelines because it offers
 readability (with less verbose includes), simpler stage dependencies, and less reliance on
 the `rules` flag.
@@ -26,6 +31,8 @@ Example configuration:
           echo "Discovering the environment stage:"
           if [[ ${{ github.ref == 'refs/heads/master' }} ]]; then
             echo "STAGE=prod" >> $GITHUB_ENV
+          else
+            echo "STAGE=dev" >> $GITHUB_ENV
           fi
           echo "Environment stage is set:"
           echo "${{ GITHUB_ENV }}"
@@ -34,16 +41,10 @@ Example configuration:
 **Note:** I break this down below as well, but we essentially check the head reference
 for our `master` branch, then return the value as either `prod` if it matches, or `dev` otherwise.
 
-The above configuration would yield an error stating it didn't recognize the named-value:
-```
-The workflow is not valid. .github/workflows/ci.yml (Line: 23, Col: 14): Unrecognized named-value: 'GITHUB_ENV'. Located at position 1 within expression: GITHUB_ENV
-```
+[Documentation regarding the environment variable creation](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files)
 
-[This was the exact opposite of what the documentation stated, I even went as far as to
-utilize the same example they provided.](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files)
-
-## Working around GITHUB_ENV
-My workaround for this environment variable mishap was to utilize a ternary operator styled
+## Working around GITHUB_ENV in a cleaner way
+My workaround for this environment variable setup was to utilize a ternary operator styled
 approach within the `env` stage at a global level.
 
 Example for a dev/prod configuration:
