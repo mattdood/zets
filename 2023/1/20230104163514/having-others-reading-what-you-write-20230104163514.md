@@ -10,6 +10,9 @@ tags: ['writing']
 Unlike my technical posts/notes this document is more to express the odd feeling
 that comes when you have others reading/using the content that you have output.
 
+As we start a new year (2023) it seems fitting to have a small post to appreciate
+how the site has changed while also looking ahead to other things I'll write in the future.
+
 The evolution of my website has been an interesting experience that has transpired
 over several years (though the theme has stayed the same). At this point in the site's existence
 I've been coming to grips with the idea that others have begun to stumble upon
