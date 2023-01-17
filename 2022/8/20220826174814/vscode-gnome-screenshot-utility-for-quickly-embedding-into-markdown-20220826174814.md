@@ -62,8 +62,8 @@ echo -n $filename | xclip -sel clip
 Using the above script, I found a few things that were needed to execute
 the script and provide some boilerplate.
 1. A task needs to be created in the `tasks.json` file for the **user** (not the project)
-1. An extension [macros]() needs to be installed to allow multiple commands to be run
-in succession
+1. An extension [macros](https://github.com/geddski/macros) needs to be installed
+to allow multiple commands to be run in succession
 1. The `gnome-ss-vscode` macro needs to be created
 1.
 
