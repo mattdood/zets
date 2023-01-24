@@ -21,6 +21,10 @@ The general flow of resources:
 1. API Gateway Integration for each method that was created
 1. API Gateway Deployment once all resources are created
 
+**Note:** The below is an example, but utilizes some older Terraform versions for modules
+and whatnot. This is likely not the most up-to-date representation of the individual
+attributes, but the general workflow of resources is the same.
+
 ## Example implementation
 Below are stubbed examples of a barebones API Gateway deployment in Terraform.
 I'm creating a few paths and one that accepts an argument, then passes this
