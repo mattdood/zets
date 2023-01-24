@@ -15,3 +15,6 @@ explanation inside AWS Lambdas.
 * [Link to the blog](https://www.joeltok.com/blog/)
 * [Running Python async as sync](https://www.joeltok.com/posts/2021-02-python-async-sync/)
 
+An additional GitHub gist that went along with the same idea is this:
+* [Gist for async -> sync wrapper](https://gist.github.com/phizaz/20c36c6734878c6ec053245a477572ec)
+
