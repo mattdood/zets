@@ -25,6 +25,8 @@ The general flow of resources:
 and whatnot. This is likely not the most up-to-date representation of the individual
 attributes, but the general workflow of resources is the same.
 
+* [Good StackOverflow reference](https://stackoverflow.com/questions/39040739/in-terraform-how-do-you-specify-an-api-gateway-endpoint-with-a-variable-in-the)
+
 ## Example implementation
 Below are stubbed examples of a barebones API Gateway deployment in Terraform.
 I'm creating a few paths and one that accepts an argument, then passes this
