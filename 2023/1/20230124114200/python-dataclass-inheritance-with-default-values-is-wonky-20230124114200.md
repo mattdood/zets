@@ -72,7 +72,7 @@ then handle the remainder of the non-default values for the child class.
 In the below example we can see that our parent `Example` is initialized first,
 has it's `__post_init__` run, then we handle the non-default/calculated fields.
 
-If we were to avoid the `super().__post_init__()` we'd receive a "default comes before other fields"
+If we were to avoid the `super().__post_init__()` we'd receive a `TypeError: non-default argument 'sum_one_two_three' follows default argument`
 error that indicates an instantiation problem.
 
 ```python
@@ -93,11 +93,50 @@ class Example
 class ExampleChild(Example):
 
     var_three: int = 1
-    sum_one_two_three: int = filed(init=False)
+    sum_one_two_three: int = field(init=False)
 
     def __post_init__(self) -> None:
         super().__post_init__()
 
         self.sum_one_two_three = self.sum_one_two + self.var_three
+```
+
+### Dictionary representations with inheritance
+When working with the dictionary representations of this information on the consumer
+side of these dataclasses we may run into issues getting the inheritance and
+various other things sorted out.
+
+In some cases we may need to remove keys or need to return a representation that
+a simple `asdict(MyDataclass)` does not handle well.
+
+This is particularly true with inheritance, where I noticed that I received a
+"recursive limit reached" when attempting to return an `asdict()` representation.
+
+To fix this, I used a workaround that returns the dictionary representation using `fields`
+to create a key-value pairing.
+
+```python
+from dataclasses import dataclass, field, fields
+from typing import Union
+
+# Example set of keys to remove before returning to the consumer
+REMOVE_THESE_KEYS = {'_internal_key_id_one', '_internal_key_id_two'}
+
+
+@dataclass
+class Example:
+    pass
+
+
+class ExampleChild(Example):
+    pass
+
+
+def get_dict_representation(datarepresentation: Union[Example, ExampleChild]) -> Dict:
+    return dict(
+        (field.name, getattr(datarepresentation, field.name))
+        for field in fields(datarepresentation)
+        if field.name not in REMOVE_THESE_KEYS
+    )
 ```
 
