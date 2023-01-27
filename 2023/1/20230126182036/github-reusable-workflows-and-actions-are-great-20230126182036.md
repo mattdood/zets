@@ -15,6 +15,12 @@ My goal with centralizing my workflows and actions is to simplify the way that
 I manage the business logic while keeping the output the same (or as close to it as I can
 for standard projects).
 
+### References
+* [reusing workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows)
+* [accessing workflow_run completion status](https://github.com/orgs/community/discussions/26238)
+* [waiting for workflow_run to complete](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run)
+* [creating composite actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-action)
+
 ## Approach
 The intent with this endeavor is to have a single source for templates, then
 have reference to these from outside projects.
