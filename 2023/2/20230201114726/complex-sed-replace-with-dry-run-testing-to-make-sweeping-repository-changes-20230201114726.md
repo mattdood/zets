@@ -17,6 +17,15 @@ as well as doing a recursive call with the `sed` replacement on specific file ty
 - [Testing recursive sed search and replace](https://unix.stackexchange.com/questions/113746/test-recursive-sed-search-and-replace-before-running)
 - [Using the find command to search multiple filenames](https://www.tecmint.com/linux-find-command-to-search-multiple-filenames-extensions/)
 
+## Bonus
+If you want multiple file types/names to be included:
+
+```bash
+find . -type f \( -name 'something' -o -name 'else.txt' -o -name '*.go' \)
+```
+
+**Note:** I've written another note for this as well!
+
 ## Breaking down the sed call
 There are a few components to the `sed` call that I settled on, with 2 separate
 commands that do different things.
