@@ -56,3 +56,33 @@ replace gitlab.com/my-organization/my-group/project-2 => gitlab.com/my-organizat
 1. Run `go generate ./...` to generate any mocks now that *most* dependencies are resolved.
 1. Re-run `go mod tidy -e` to catch any mock related issues that were found in the previous step.
 
+## Side note - GitLab private repo access
+If your project is in a private repository and has a dependency within another private repo
+you will need to update your GitLab project permissions as of GitLab version 15.9.
+
+References:
+* [Allow access to your project with a job token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html#allow-access-to-your-project-with-a-job-token)
+* [GitLab access token setups](https://penkovski.com/post/gitlab-subgroups-go-modules/)
+* [GitLab subgroups and private repos](https://seankhliao.com/blog/12021-04-29-go-private-modules-in-gitlab/)
+
+## Resolving GitLab `go get` behavior
+Using `.netrc` to override `go get` behavior seems to be required for Golang to play nicely.
+There are 2 changes, one for local development and one for GitLab pipelines.
+
+### Local development
+```
+# ~/.netrc
+machine gitlab.com
+login my-gitlab-username
+password my-personal-access-token
+```
+
+### Pipelines
+The below can be generated in the CI pipeline as some form of script.
+
+```
+# ~/.netrc
+machine gitlab.com
+login gitlab-ci-token
+password <my CI token here>
+```
