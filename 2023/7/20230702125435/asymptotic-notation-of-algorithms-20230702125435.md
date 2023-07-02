@@ -3,7 +3,7 @@ path: '/2023/7/asymptotic-notation-of-algorithms-20230702125435'
 title: 'asymptotic notation of algorithms'
 date: '20230702125435'
 category: 'algorithms'
-tags: ['math', 'big-o']
+tags: ['math', 'big-o', 'big-theta', 'big-omega']
 ---
 
 # asymptotic notation of algorithms
