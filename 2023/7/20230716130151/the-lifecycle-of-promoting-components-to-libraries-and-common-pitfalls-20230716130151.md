@@ -62,40 +62,40 @@ code, substitute "function" at step #1 for any: existing library, feature, 10 mo
 
 ### Outlining the evolution of the code
 1. Core library function - (`Problem 1`)
-    * Used as a proof of concept initially
-    * Is adopted into a feature to determine some new capability or solve a problem
-    * This would be the "fast and dirty" approach that we later clean up, maybe we
+    1. Used as a proof of concept initially
+    1. Is adopted into a feature to determine some new capability or solve a problem
+    1. This would be the "fast and dirty" approach that we later clean up, maybe we
     spend a long time making it work very well and defining edge cases.
 1. Interface or "client" or "tool" - Whatever term you'd like to use for a single
 entrypoint that can end-to-end execute your previous code (`Problem 1`) in a "general" interface
-    * We want to abstract the code to take multiple cases (`Problem 2`)
-    * This lives side-by-side in our same codebase with `Problem 1`
-    * Think about the structure of "how does this live side-by-side" my existing code?
-    * **Note:** You want to change logic in isolation, solve each problem first then abstract
-        * Just copy paste the code initially, please. Don't abstract it yet. Get both problems to be solved first.
-    * Keep in mind this likely contains business logic still, which we want to remove from our
+    1. We want to abstract the code to take multiple cases (`Problem 2`)
+    1. This lives side-by-side in our same codebase with `Problem 1`
+    1. Think about the structure of "how does this live side-by-side" my existing code?
+    1. **Note:** You want to change logic in isolation, solve each problem first then abstract
+        1. Just copy paste the code initially, please. Don't abstract it yet. Get both problems to be solved first.
+    1. Keep in mind this likely contains business logic still, which we want to remove from our
     component as it gains complexity (and features).
-    * **Do not abstract to a separate codebase:** In this example you would create 3 code bases to
+    1. **Do not abstract to a separate codebase:** In this example you would create 3 code bases to
     maintain separately if you were to abstract into a new project.
-        * `Codebase 1` - `Problem 1`
-        * `Codebase 2` - `Problem 2`
-        * `Codebase 3` - `Solution 1 & 2`
+        1. `Codebase 1` - `Problem 1`
+        1. `Codebase 2` - `Problem 2`
+        1. `Codebase 3` - `Solution 1 & 2`
 1. Spread the interface to more domains - We want this used in other areas, by other people, to spread
 our influence and cool feature. This feature has solved `Problem 1` and `Problem 2` now, let's expand
 it to see if:
     1. A portion of it can be generalized to a shared location for other, closely related problems can share
     1. The component might be considered a "module" with several moving parts, ensure these
     have "guardrails" as the code is used in more contexts:
-        * Are parameters properly validated with `ValueError` or similar exceptions?
-        * Can users read your documentation in the function strings and file headers to
+        1. Are parameters properly validated with `ValueError` or similar exceptions?
+        1. Can users read your documentation in the function strings and file headers to
         get an idea of what you want to accomplish?
-        * Is the code well formatted?
-        * Do we have a comment somewhere defining the value this brings, what its intent was,
+        1. Is the code well formatted?
+        1. Do we have a comment somewhere defining the value this brings, what its intent was,
         and any pitfalls?
-        * Is there a `TODO` with the intentions from the author for any future expansion?
+        1. Is there a `TODO` with the intentions from the author for any future expansion?
     1. Would other problems unrelated to the "business logic" of this feature be benefitted
     by having access to some/all of this code?
-        * **Note:** It is important to remember a library can be as small as 1 function,
+        1. **Note:** It is important to remember a library can be as small as 1 function,
         so we can always splice out the business logic specific to our app into a sub-function/component/whatever
         and only "ship" the parts we want to be installable.
 1. Make a library that can be installable - If the component has reached this stage, it is ready to be created
@@ -115,5 +115,4 @@ in a new project
     * If it is truly a separate project, copy paste the code and generalize later. You'll want to fix things,
     doing so with the weight of a library to "keep it backward compatible" is bad.
     * You want to change logic in isolation, solve each problem first then abstract
-
-
+    rather than creating (more) problems by trying to solve 2 problems at once (abstraction + `Problem 2`)
