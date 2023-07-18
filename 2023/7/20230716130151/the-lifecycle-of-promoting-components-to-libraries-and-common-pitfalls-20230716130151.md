@@ -66,8 +66,10 @@ code, substitute "function" at step #1 for any: existing library, feature, 10 mo
     1. Is adopted into a feature to determine some new capability or solve a problem
     1. This would be the "fast and dirty" approach that we later clean up, maybe we
     spend a long time making it work very well and defining edge cases.
+    
 1. Interface or "client" or "tool" - Whatever term you'd like to use for a single
 entrypoint that can end-to-end execute your previous code (`Problem 1`) in a "general" interface
+
     1. We want to abstract the code to take multiple cases (`Problem 2`)
     1. This lives side-by-side in our same codebase with `Problem 1`
     1. Think about the structure of "how does this live side-by-side" my existing code?
@@ -80,12 +82,15 @@ entrypoint that can end-to-end execute your previous code (`Problem 1`) in a "ge
         1. `Codebase 1` - `Problem 1`
         1. `Codebase 2` - `Problem 2`
         1. `Codebase 3` - `Solution 1 & 2`
+
 1. Spread the interface to more domains - We want this used in other areas, by other people, to spread
 our influence and cool feature. This feature has solved `Problem 1` and `Problem 2` now, let's expand
 it to see if:
+
     1. A portion of it can be generalized to a shared location for other, closely related problems can share
     1. The component might be considered a "module" with several moving parts, ensure these
     have "guardrails" as the code is used in more contexts:
+    
         1. Are parameters properly validated with `ValueError` or similar exceptions?
         1. Can users read your documentation in the function strings and file headers to
         get an idea of what you want to accomplish?
@@ -93,11 +98,14 @@ it to see if:
         1. Do we have a comment somewhere defining the value this brings, what its intent was,
         and any pitfalls?
         1. Is there a `TODO` with the intentions from the author for any future expansion?
+
     1. Would other problems unrelated to the "business logic" of this feature be benefitted
     by having access to some/all of this code?
+
         1. **Note:** It is important to remember a library can be as small as 1 function,
         so we can always splice out the business logic specific to our app into a sub-function/component/whatever
         and only "ship" the parts we want to be installable.
+
 1. Make a library that can be installable - If the component has reached this stage, it is ready to be created
 
 ## Common pitfalls
